@@ -5,4 +5,4 @@
     - name: run hello script
       script: files/hello.sh
       args:
-        creates: /mtp/hello-script.txt
+        creates: /tmp/hello-script.txt
