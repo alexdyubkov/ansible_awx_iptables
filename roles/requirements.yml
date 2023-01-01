@@ -1,2 +1,3 @@
-# Install a role from the Ansible Galaxy
-- src: mrlesmithjr.ipset
+# Install a role from the https://github.com/mrlesmithjr/ansible-ipset
+- src: https://github.com/bennojoy/nginx
+
