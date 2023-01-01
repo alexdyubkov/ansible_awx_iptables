@@ -4,5 +4,3 @@
   tasks:
     - name: run hello script
       script: files/hello.sh
-      args:
-        creates: /tmp/hello-script.txt
