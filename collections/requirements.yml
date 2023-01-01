@@ -1,0 +1,4 @@
+---
+collections:
+# https://galaxy.ansible.com/mrlesmithjr/shorewall
+- mrlesmithjr.shorewall
