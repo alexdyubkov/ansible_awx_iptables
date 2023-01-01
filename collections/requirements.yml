@@ -1,7 +1,4 @@
 ---
-- hosts: all
-  tasks:
-    - name: Creates_directory
-      file:
-        path: /tmp/test
-        state: directory
+collections:
+# Install the Arista EOS collection
+- mrlesmithjr.shorewall
