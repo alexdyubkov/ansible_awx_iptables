@@ -1,4 +1,4 @@
 ---
 collections:
 # Install the Arista EOS collection
-- mrlesmithjr.shorewall
+- arista.eos
