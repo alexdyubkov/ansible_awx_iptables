@@ -1,0 +1,8 @@
+---
+- name: Script Module Example
+  hosts: all
+  tasks:
+    - name: run hello script
+      script: files/hello.sh
+      args:
+        creates: /tmp/hello-script.txt
