@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-ipset list >> /tmp/output.txt
+sudo ipset list >> /tmp/output.txt
 
