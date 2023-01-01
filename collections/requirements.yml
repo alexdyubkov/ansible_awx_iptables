@@ -1,4 +1,7 @@
 ---
-collections:
-# https://galaxy.ansible.com/mrlesmithjr/shorewall
-- mrlesmithjr.shorewall
+- hosts: all
+  tasks:
+    - name: Creates_directory
+      file:
+        path: /tmp/test
+        state: directory
