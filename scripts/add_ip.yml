@@ -1,8 +1,8 @@
 ---
-- name: add_ip_to_iptables Playbook
+- name: add_ip_to_ipset Playbook
   hosts: all
   tasks:
-    - name: check iptables+ipsets
+    - name: add_ip_to_ipset
       script: files/add_ip_to_iptables.sh {{ip_to_block}}
       register: results
       
