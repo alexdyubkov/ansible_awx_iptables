@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: check iptables+ipsets
-      script: files/add_ip_to_iptables.sh --extra-vars "ip_to_block=<your_ip>”
+      script: files/add_ip_to_iptables.sh {{ip_to_block}}
       register: results
       
     - debug: var=results.stdout_lines      
