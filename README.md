@@ -7,7 +7,7 @@ The idea:
 Create Ansible AWX templates to check/block IPs using iptables+ipset/unblock IPs  on remote hosts.
 
 Realization:
-Each Ansible template will be bound to one of the yml scripts: https://github.com/alexdyubkov/ansible_awx_iptables/tree/main/scripts/xxx.yml
+Each Ansible template will be bound to one of the yml scripts: https://github.com/alexdyubkov/ansible_awx_iptables/tree/main/scripts/xxx.yml<br>
 For example: view.yml=show iptables+show ipsets on remote hosts
              add_ip.yml=add ip to the ipset on remote hosts
 
