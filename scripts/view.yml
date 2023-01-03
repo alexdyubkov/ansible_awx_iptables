@@ -1,10 +1,10 @@
 ---
-- name: Script Module Example
+- name: check iptables+ipsets Playbook
   hosts: all
   tasks:
-    - name: check iptables+ipsets
+    - name: check iptables+ipsets Task
       script: files/view.sh
       register: results
       
     - debug:
-      var: results
+      var: results.stdout_lines
