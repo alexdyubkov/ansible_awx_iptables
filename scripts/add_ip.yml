@@ -1,4 +1,5 @@
 ---
+#awx Template+survey enabled
 - name: add_ip_to_ipset Playbook
   hosts: all
   tasks:
