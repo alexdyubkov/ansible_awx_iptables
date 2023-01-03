@@ -4,3 +4,7 @@
   tasks:
     - name: check iptables+ipsets
       script: files/view.sh
+      register: results
+      
+    - debug:
+      var: results
