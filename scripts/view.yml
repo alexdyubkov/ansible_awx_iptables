@@ -6,4 +6,4 @@
       script: files/view.sh
       register: results
       
-    - debug: var=results.stdout_lines
+    - debug: var=results
