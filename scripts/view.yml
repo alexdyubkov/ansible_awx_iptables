@@ -1,0 +1,6 @@
+---
+- name: Script Module Example
+  hosts: all
+  tasks:
+    - name: check iptables+ipsets
+      script: files/view.sh
