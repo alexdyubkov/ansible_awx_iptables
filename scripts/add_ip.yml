@@ -4,4 +4,7 @@
   tasks:
     - name: check iptables+ipsets
       script: files/add_ip_to_iptables.sh
+      register: results
+      
+    - debug: var=results.stdout_lines      
 
