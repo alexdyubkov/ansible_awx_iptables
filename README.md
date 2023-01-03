@@ -1,7 +1,7 @@
 This is a test project. 
 
 FYI:
-Ansible AWX = GUI for ansible.
+Ansible AWX = GUI for ansible. Ansible AWX can do CI/CD from github.
 
 The idea:
 Create Ansible AWX templates to check/block IPs using iptables+ipset/unblock IPs  on remote hosts.
