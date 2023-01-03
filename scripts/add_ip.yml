@@ -1,7 +1,7 @@
 ---
-- name: Script Module Example
+- name: add_ip_to_iptables Playbook
   hosts: all
   tasks:
     - name: check iptables+ipsets
-      script: files/view.sh
+      script: files/add_ip_to_iptables.sh
 
