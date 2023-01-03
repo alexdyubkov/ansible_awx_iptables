@@ -4,7 +4,4 @@
   tasks:
     - name: add_ip_to_ipset
       script: files/add_ip_to_iptables.sh {{ip_to_block}}
-      register: results
-      
-    - debug: var=results.stdout_lines      
 
